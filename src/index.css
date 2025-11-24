@@ -1,0 +1,32 @@
+/* Reset CSS */
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light; /* Paksa mode terang */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* PENTING: Agar full screen */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left; /* Default Vite biasanya center, kita ubah ke kiri */
+}
+
+/* Agar semua element ukurannya pas */
+* {
+  box-sizing: border-box;
+}
